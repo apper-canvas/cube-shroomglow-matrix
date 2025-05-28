@@ -32,7 +32,8 @@ const MainFeature = () => {
       ingredients: ['Reishi Extract', 'Hyaluronic Acid', 'Vitamin E'],
       rating: 4.8,
       reviews: 156,
-      stock: 24
+      stock: 24,
+      featured: true
     },
     {
       id: 2,
@@ -48,8 +49,9 @@ const MainFeature = () => {
       ingredients: ['Shiitake Extract', 'Niacinamide', 'Shea Butter'],
       rating: 4.6,
       reviews: 89,
-      stock: 18
     },
+
+      stock: 18
     {
       id: 3,
       name: 'Lion\'s Mane Recovery Mask',
@@ -64,7 +66,8 @@ const MainFeature = () => {
       ingredients: ['Lion\'s Mane Extract', 'Zinc Oxide', 'Kaolin Clay'],
       rating: 4.9,
       reviews: 203,
-      stock: 31
+      stock: 31,
+      featured: true
     },
     {
       id: 4,
@@ -80,7 +83,8 @@ const MainFeature = () => {
       ingredients: ['Cordyceps Extract', 'Salicylic Acid', 'Green Tea'],
       rating: 4.7,
       reviews: 124,
-      stock: 42
+      stock: 42,
+      featured: true
     },
     {
       id: 5,
@@ -112,8 +116,11 @@ const MainFeature = () => {
       ingredients: ['Turkey Tail Extract', 'Ceramides', 'Panthenol'],
       rating: 4.8,
       reviews: 91,
-      stock: 15
+      stock: 15,
+      featured: true
     }
+  ]);
+
   ])
 
   const categories = [

@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import MainFeature from '../components/MainFeature'
+import FeaturedProducts from '../components/FeaturedProducts'
+
 import ApperIcon from '../components/ApperIcon'
 
 const Home = () => {
@@ -175,6 +177,10 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Featured Products Section */}
+      <FeaturedProducts />
+
 
       {/* Main Feature Section */}
       <MainFeature />
