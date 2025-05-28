@@ -6,12 +6,20 @@ import { configureStore } from '@reduxjs/toolkit'
 import App from './App.jsx'
 import './index.css'
 
-// Simple store setup for future expansion
+// Simple placeholder reducer for store setup
+const appReducer = (state = { initialized: true }, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
 const store = configureStore({
   reducer: {
-    // Add reducers as needed
+    app: appReducer,
   },
 })
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
