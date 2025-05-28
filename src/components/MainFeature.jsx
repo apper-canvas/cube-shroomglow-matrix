@@ -49,10 +49,11 @@ const MainFeature = () => {
       ingredients: ['Shiitake Extract', 'Niacinamide', 'Shea Butter'],
       rating: 4.6,
       reviews: 89,
-    },
-
       stock: 18
+    },
     {
+
+
       id: 3,
       name: 'Lion\'s Mane Recovery Mask',
       price: 45,
@@ -68,6 +69,8 @@ const MainFeature = () => {
       reviews: 203,
       stock: 31,
       featured: true
+    },
+
     },
     {
       id: 4,
@@ -121,7 +124,6 @@ const MainFeature = () => {
     }
   ]);
 
-  ])
 
   const categories = [
     { id: 'all', name: 'All Products', icon: 'Grid3X3' },
