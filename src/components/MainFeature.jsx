@@ -70,8 +70,6 @@ const MainFeature = () => {
       stock: 31,
       featured: true
     },
-
-    },
     {
       id: 4,
       name: 'Cordyceps Energy Cleanser',
